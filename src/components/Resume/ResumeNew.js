@@ -11,6 +11,8 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
 
   // PDF path - assuming it's in the public folder
   const pdfPath = process.env.PUBLIC_URL + "/Rayhan_Ferdous_Srejon_CV.pdf";
