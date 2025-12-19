@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";

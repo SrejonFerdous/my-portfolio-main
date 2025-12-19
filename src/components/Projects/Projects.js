@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import nextrip from "../../Assets/Projects/NexTrip1.png";
-import cloudRestaurant from "../../Assets/Projects/cloud-restaurant.png";
-import hospital from "../../Assets/Projects/hospital.png";
-import iot from "../../Assets/Projects/iot.png";
-import exam from "../../Assets/Projects/exam.png";
-import zombie from "../../Assets/Projects/zombie.png";
-import buildingPlayground from "../../Assets/Projects/building-playground.png"; // NEW
+// import cloudRestaurant from "../../Assets/Projects/cloud-restaurant.png";
+// import hospital from "../../Assets/Projects/hospital.png";
+// import iot from "../../Assets/Projects/iot.png";
+// import exam from "../../Assets/Projects/exam.png";
+// import zombie from "../../Assets/Projects/zombie.png";
+// import buildingPlayground from "../../Assets/Projects/building-playground.png"; // NEW
 import DigitalRead from "../../Assets/Projects/DigitalRead.png";
 import LearnEase from "../../Assets/Projects/LearnEase.png";
 import Messiah from "../../Assets/Projects/Messiah.png";
