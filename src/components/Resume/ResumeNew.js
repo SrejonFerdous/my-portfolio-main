@@ -17,7 +17,7 @@ function ResumeNew() {
   // PDF path - assuming it's in the public folder
   const pdfPath = process.env.PUBLIC_URL + "/Rayhan_Ferdous_Srejon_CV.pdf";
   const newDriveLink =
-    "https://drive.google.com/file/d/1OTltLkO3r5eRuPy5mer3mEZCFOF5pL1H/view?usp=drive_link";
+    "https://drive.google.com/file/d/1OTltLkO3r5eRuPy5mer3mEZCFOF5pL1H/view?usp=sharing";
 
   useEffect(() => {
     setWidth(window.innerWidth);
