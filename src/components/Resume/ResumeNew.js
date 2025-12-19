@@ -11,8 +11,8 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
+  // const [numPages, setNumPages] = useState(null);
+  // const [pageNumber, setPageNumber] = useState(1);
 
   // PDF path - assuming it's in the public folder
   const pdfPath = process.env.PUBLIC_URL + "/Rayhan_Ferdous_Srejon_CV.pdf";
@@ -29,9 +29,9 @@ function ResumeNew() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
+  // function onDocumentLoadSuccess({ numPages }) {
+  //   setNumPages(numPages);
+  // }
 
   return (
     <div>
@@ -73,12 +73,12 @@ function ResumeNew() {
         <Row className="resume" style={{ justifyContent: "center" }}>
           <Document
             file={pdfPath}
-            onLoadSuccess={onDocumentLoadSuccess}
+            // onLoadSuccess={onDocumentLoadSuccess}
             loading={<div style={{ color: "white" }}>Loading resume...</div>}
             error={<div style={{ color: "white" }}>Failed to load resume.</div>}
           >
             <Page
-              pageNumber={pageNumber}
+              // pageNumber={pageNumber}
               scale={width > 786 ? 1.0 : 0.6}
               width={width > 786 ? width * 0.6 : width * 0.9}
             />
