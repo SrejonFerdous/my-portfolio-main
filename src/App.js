@@ -9,7 +9,8 @@ import Resume from "./components/Resume/ResumeNew";
 import Publications from "./components/Publications/Publications";
 import MoreInfo from "./components/MoreInfo/MoreInfo";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
+  // BrowserRouter as Router,
   Route,
   Routes,
   Navigate,
