@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/SrejonFerdous/my-portfolio.git",
+  "homepage": "https://github.com/SrejonFerdous/my-portfolio-main",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
